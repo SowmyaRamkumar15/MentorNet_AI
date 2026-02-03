@@ -1,0 +1,14 @@
+.doubts-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.doubt-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+}
+
+.doubt-title { font-weight: 700; color: var(--dark-color); }
+.doubt-meta { color: var(--gray-color); font-size: 0.875rem; }
